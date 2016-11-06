@@ -30,6 +30,6 @@ class c_theme_changer:
     def change_icons(self):
         call ("gsettings set org.gnome.desktop.interface icon-theme {0}".format(self.get_match()),shell=True)
 
-if __name__ == '__main__'
+if name == '__main__'
     c_theme_changer().change_icons()
 
